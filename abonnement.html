@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">  <!-- retirer après validation des textes par l'utilisateur -->
+<title>Newsletter · Out of the Box</title>
+<meta name="description" content="Chaque semaine, une édition sur les matières premières, l'économie et la géopolitique. Gratuit, désinscription en un clic.">
+<style>
+  :root{--bg:#000;--fg:#fff;--mut:#9a9a9a;--line:#555}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Helvetica,Arial,sans-serif}
+  main{max-width:560px;margin:0 auto;padding:10vh 24px 6vh}
+  .marque{font:700 13px Helvetica,Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;color:var(--mut)}
+  h1{font-size:clamp(28px,6vw,40px);line-height:1.15;margin:14px 0 14px}
+  p{margin:0 0 16px}.mut{color:var(--mut);font-size:14px}
+  form{margin-top:28px}
+  input[type=email]{width:100%;padding:15px 14px;font:16px Helvetica,Arial,sans-serif;background:#000;color:#fff;border:2px solid var(--fg);border-radius:0}
+  input[type=email]:focus{outline:3px solid #fff;outline-offset:2px}
+  label.case{display:flex;gap:10px;align-items:flex-start;margin:16px 0;font-size:14px;color:#ddd}
+  label.case input{margin-top:4px;width:18px;height:18px;flex:none}
+  button{width:100%;padding:15px;border:0;background:#fff;color:#000;font:700 16px Helvetica,Arial,sans-serif;cursor:pointer}
+  button[disabled]{opacity:.6;cursor:wait}
+  #retour{margin-top:16px;min-height:1.6em}
+  .piege{position:absolute;left:-9999px;height:0;overflow:hidden}
+  a{color:#fff}
+</style>
+</head>
+<body>
+<main>
+  <div class="marque">Out of the Box</div>
+  <h1>Les matières premières, expliquées chaque semaine.</h1>
+  <p>Une édition par semaine : les prix, un dossier approfondi, ce que parient les marchés et l'agenda de la semaine suivante. Gratuit.</p>
+  <form id="f" novalidate>
+    <label for="email" class="mut">Votre adresse e-mail</label>
+    <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="vous@exemple.fr" required>
+    <div class="piege" aria-hidden="true"><label>Ne pas remplir <input id="website" name="website" tabindex="-1" autocomplete="off"></label></div>
+    <label class="case"><input id="ok" type="checkbox" required>
+      <span id="texte">J'accepte de recevoir la newsletter hebdomadaire Out of the Box par e-mail. Je peux me désinscrire à tout moment en un clic.</span></label>
+    <button id="b" type="submit">Je m'inscris</button>
+    <div id="retour" role="status" aria-live="polite"></div>
+  </form>
+  <p class="mut">Vous recevrez d'abord un e-mail pour confirmer votre inscription. Vos données : <a href="confidentialite-newsletter.html">politique de confidentialité</a>.</p>
+</main>
+<script>
+(function(){
+  var URL_INSCRIPTION = "https://obxmedia8foqc4ng-abonnes.functions.fnc.fr-par.scw.cloud/inscription";
+  var f = document.getElementById("f"), r = document.getElementById("retour"), b = document.getElementById("b");
+  f.addEventListener("submit", function(e){
+    e.preventDefault();
+    var email = document.getElementById("email").value.trim();
+    if(!email || !document.getElementById("ok").checked){ r.textContent = "Merci de saisir votre adresse et de cocher la case de consentement."; return; }
+    b.disabled = true; r.textContent = "Envoi…";
+    fetch(URL_INSCRIPTION, {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({email: email, consentement: true, website: document.getElementById("website").value, texte_consentement: document.getElementById("texte").textContent})})
+    .then(function(x){ return x.json().catch(function(){ return {ok:false,message:"Réponse inattendue."}; }); })
+    .then(function(d){ r.textContent = d.message || "Merci !"; if(d.ok){ f.reset(); } })
+    .catch(function(){ r.textContent = "Impossible de joindre le service. Réessayez dans un instant."; })
+    .then(function(){ b.disabled = false; });
+  });
+})();
+</script>
+</body>
+</html>
