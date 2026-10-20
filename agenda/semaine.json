@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-20T11:23",
+ "genere": "2026-10-20T11:25",
  "edition": "OBX-99",
  "numero": "99",
  "j0": "2026-10-19",
@@ -99,7 +99,7 @@
    "quand": "2026-10-22T18:00",
    "format": "Le pari de la semaine",
    "support": "story (mise à jour du pari)",
-   "mode": "auto",
+   "mode": "manuel",
    "statut": "manuel : story à poster dans l'appli"
   }
  ],
