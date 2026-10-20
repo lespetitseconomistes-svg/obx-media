@@ -1,0 +1,9 @@
+{
+ "defaut": "matieres-premieres",
+ "listes": {
+  "matieres-premieres": {
+   "nom": "Matières premières",
+   "description": "Chaque semaine, un dossier sur les matières premières : prix, mécanismes, paris des marchés et agenda."
+  }
+ }
+}

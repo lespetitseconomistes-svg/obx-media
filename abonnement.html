@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Newsletter · Out of the Box</title>
+<title>Inscription · Out of the Box</title>
 <meta name="description" content="Chaque semaine, une édition sur les matières premières, l'économie et la géopolitique. Gratuit, désinscription en un clic.">
 <style>
   :root{--bg:#000;--fg:#fff;--mut:#9a9a9a;--line:#555}
@@ -28,30 +28,40 @@
 <body>
 <main>
   <div class="marque">Out of the Box</div>
-  <h1>Les matières premières, expliquées chaque semaine.</h1>
-  <p>Une édition par semaine : les prix, un dossier approfondi, ce que parient les marchés et l'agenda de la semaine suivante. Gratuit.</p>
+  <h1 id="titre">Les matières premières, expliquées chaque semaine.</h1>
+  <p id="desc">Une édition par semaine : les prix, un dossier approfondi, ce que parient les marchés et l'agenda de la semaine suivante. Gratuit.</p>
   <form id="f" novalidate>
     <label for="email" class="mut">Votre adresse e-mail</label>
     <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="vous@exemple.fr" required>
     <div class="piege" aria-hidden="true"><label>Ne pas remplir <input id="website" name="website" tabindex="-1" autocomplete="off"></label></div>
     <label class="case"><input id="ok" type="checkbox" required>
-      <span id="texte">J'accepte de recevoir la newsletter hebdomadaire Out of the Box par e-mail. Je peux me désinscrire à tout moment en un clic.</span></label>
+      <span id="texte">J'accepte de recevoir la newsletter hebdomadaire Out of the Box « <b id="nomliste">Matières premières</b> » par e-mail. Je peux me désinscrire à tout moment en un clic.</span></label>
     <button id="b" type="submit">Je m'inscris</button>
     <div id="retour" role="status" aria-live="polite"></div>
   </form>
+  <p class="mut"><a href="./">← Toutes les newsletters et les réseaux</a></p>
   <p class="mut">Vous recevrez d'abord un e-mail pour confirmer votre inscription. Vos données : <a href="confidentialite-newsletter.html">politique de confidentialité</a>.</p>
 </main>
 <script>
 (function(){
   var URL_INSCRIPTION = "https://obxmedia8foqc4ng-abonnes.functions.fnc.fr-par.scw.cloud/inscription";
   var f = document.getElementById("f"), r = document.getElementById("retour"), b = document.getElementById("b");
+  var liste = (new URLSearchParams(location.search).get("liste") || "").toLowerCase();   // ex. abonnement.html?liste=matieres-premieres
+  fetch("listes.json").then(function(x){ return x.json(); }).then(function(L){
+    if(!liste || !L.listes[liste]) liste = L.defaut;
+    var l = L.listes[liste];
+    document.getElementById("nomliste").textContent = l.nom;
+    document.getElementById("titre").textContent = l.nom + " : chaque semaine.";
+    if(l.description) document.getElementById("desc").textContent = l.description;
+    document.title = l.nom + " · Out of the Box";
+  }).catch(function(){});
   f.addEventListener("submit", function(e){
     e.preventDefault();
     var email = document.getElementById("email").value.trim();
     if(!email || !document.getElementById("ok").checked){ r.textContent = "Merci de saisir votre adresse et de cocher la case de consentement."; return; }
     b.disabled = true; r.textContent = "Envoi…";
     fetch(URL_INSCRIPTION, {method:"POST", headers:{"Content-Type":"application/json"},
-      body: JSON.stringify({email: email, consentement: true, website: document.getElementById("website").value, texte_consentement: document.getElementById("texte").textContent})})
+      body: JSON.stringify({email: email, liste: liste, consentement: true, website: document.getElementById("website").value, texte_consentement: document.getElementById("texte").textContent})})
     .then(function(x){ return x.json().catch(function(){ return {ok:false,message:"Réponse inattendue."}; }); })
     .then(function(d){ r.textContent = d.message || "Merci !"; if(d.ok){ f.reset(); } })
     .catch(function(){ r.textContent = "Impossible de joindre le service. Réessayez dans un instant."; })
