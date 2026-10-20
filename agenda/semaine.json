@@ -1,0 +1,117 @@
+{
+ "genere": "2026-10-20T11:23",
+ "edition": "OBX-99",
+ "numero": "99",
+ "j0": "2026-10-19",
+ "feu_vert_newsletter": false,
+ "feu_vert_reseaux": false,
+ "publications": [
+  {
+   "reseau": "Instagram",
+   "quand": "2026-10-19T12:15",
+   "format": "Le pari de la semaine",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "prêt, en attente du feu vert réseaux"
+  },
+  {
+   "reseau": "YouTube",
+   "quand": "2026-10-19T16:30",
+   "format": "Reel · Le mécanisme (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "prêt, en attente du feu vert réseaux"
+  },
+  {
+   "reseau": "TikTok",
+   "quand": "2026-10-19T19:00",
+   "format": "Reel · Le mécanisme (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "prêt, en attente du feu vert réseaux"
+  },
+  {
+   "reseau": "LinkedIn",
+   "quand": "2026-10-20T08:30",
+   "format": "Le mécanisme",
+   "support": "document PDF",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
+  },
+  {
+   "reseau": "X",
+   "quand": "2026-10-20T10:00",
+   "format": "Le mécanisme",
+   "support": "fil",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
+  },
+  {
+   "reseau": "TikTok",
+   "quand": "2026-10-20T19:00",
+   "format": "Le pari de la semaine",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "prêt, en attente du feu vert réseaux"
+  },
+  {
+   "reseau": "LinkedIn",
+   "quand": "2026-10-21T08:30",
+   "format": "La semaine en 5 chiffres",
+   "support": "document PDF",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
+  },
+  {
+   "reseau": "X",
+   "quand": "2026-10-21T10:00",
+   "format": "La semaine en 5 chiffres",
+   "support": "fil",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
+  },
+  {
+   "reseau": "Instagram",
+   "quand": "2026-10-21T13:00",
+   "format": "Le mécanisme",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "prêt, en attente du feu vert réseaux"
+  },
+  {
+   "reseau": "Instagram",
+   "quand": "2026-10-21T18:00",
+   "format": "Reel · Le mécanisme (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "prêt, en attente du feu vert réseaux"
+  },
+  {
+   "reseau": "Instagram",
+   "quand": "2026-10-22T09:00",
+   "format": "La semaine en 5 chiffres",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "prêt, en attente du feu vert réseaux"
+  },
+  {
+   "reseau": "Instagram",
+   "quand": "2026-10-22T18:00",
+   "format": "Le pari de la semaine",
+   "support": "story (mise à jour du pari)",
+   "mode": "auto",
+   "statut": "manuel : story à poster dans l'appli"
+  }
+ ],
+ "problemes": [
+  "Feu vert newsletter pas encore donné",
+  "Feu vert réseaux pas encore donné"
+ ],
+ "jetons_a_renouveler": [
+  {
+   "nom": "Clé API Buffer (obx-planification)",
+   "expire": "2026-11-19",
+   "jours_restants": 30
+  }
+ ]
+}
