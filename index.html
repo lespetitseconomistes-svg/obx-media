@@ -55,5 +55,13 @@
   </section>
   <footer><a href="confidentialite-newsletter.html">Confidentialité des newsletters</a></footer>
 </main>
+<script>
+/* ?src=instagram : on garde l'origine de la visite dans les liens d'inscription, pour savoir quel réseau amène des abonnés */
+(function(){
+  var s=(new URLSearchParams(location.search).get("src")||"").toLowerCase().replace(/[^a-z0-9_-]/g,"").slice(0,30);
+  if(!s) return;
+  document.querySelectorAll('a[href^="abonnement.html"]').forEach(function(a){ a.href += "&src=" + encodeURIComponent(s); });
+})();
+</script>
 </body>
 </html>
