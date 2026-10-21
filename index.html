@@ -8,34 +8,42 @@
 <meta property="og:title" content="Out of the Box">
 <meta property="og:description" content="Comprendre l&#x27;économie, une idée à la fois. Newsletters et vidéos, gratuites.">
 <style>
-  :root{--bg:#000;--fg:#fff;--mut:#9a9a9a;--line:#3a3a3a}
+  :root{--bg:#000;--fg:#fff;--mut:#9a9a9a;--carte:#141414;--carte2:#1f1f1f;--expo:cubic-bezier(.16,1,.3,1)}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
-  main{max-width:480px;margin:0 auto;padding:44px 20px 40px;display:flex;flex-direction:column;gap:30px}
-  header{text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px}
-  header img{width:190px;height:auto}
-  header p{margin:0;color:var(--mut);max-width:34ch}
-  h2{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);margin:0 0 10px;font-weight:700}
+  main{max-width:480px;margin:0 auto;padding:max(48px,env(safe-area-inset-top)) 20px max(40px,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:34px}
+  header{display:flex;flex-direction:column;align-items:flex-start;gap:18px}
+  header img{width:150px;height:auto}
+  header h1{margin:0;font-size:34px;line-height:1.08;font-weight:700;letter-spacing:-.02em;max-width:17ch}   /* grand titre : resserré et interligne serré (règle de typographie propre à la taille) */
+  header p{margin:0;color:var(--mut);font-size:17px;max-width:32ch}
+  h2{font-size:15px;color:var(--mut);margin:0 0 12px;font-weight:600}
   ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
-  a.card,div.card{display:flex;align-items:center;gap:14px;padding:16px 18px;border:2px solid var(--fg);color:var(--fg);text-decoration:none;min-height:60px}
-  a.card:hover,a.card:focus-visible{background:var(--fg);color:var(--bg);outline:none}
-  a.card:hover .sub,a.card:focus-visible .sub{color:#444}
-  .card b{display:block;font-size:17px;line-height:1.25}
+  a.card,div.card{display:flex;align-items:center;gap:16px;padding:18px 20px;background:var(--carte);color:var(--fg);text-decoration:none;min-height:68px;border-radius:12px;border-left:4px solid var(--fg);transition:transform .1s var(--expo),background .18s}
+  a.card:active{transform:scale(.97)}                                  /* retour immédiat au toucher (échelle 0,97 en 100 ms) */
+  a.card:focus-visible{outline:3px solid #fff;outline-offset:3px}
+  @media (hover:hover) and (pointer:fine){a.card:hover{background:var(--fg);color:var(--bg)}a.card:hover .sub{color:#444}}
+  .card b{display:block;font-size:18px;line-height:1.25;letter-spacing:-.005em}
   .sub{display:block;color:var(--mut);font-size:14px;line-height:1.35;margin-top:2px}
   .grow{flex:1;min-width:0}
-  .go{font-size:20px;flex:none}
-  .card.soon{border-color:var(--line);color:var(--mut)}
+  .go{font-size:20px;flex:none;color:var(--mut)}
+  .card.soon{border-left-color:#3a3a3a;color:var(--mut);background:#0d0d0d}
   .card.soon b{color:var(--mut)}
   .ic{width:28px;height:28px;flex:none;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
-  footer{text-align:center;color:var(--mut);font-size:13px}
+  footer{color:var(--mut);font-size:13px}
   footer a{color:var(--mut)}
+  @media (prefers-reduced-motion:no-preference){   /* arrivée unique, dans l'ordre de lecture, décalée de 70 ms ; rien n'est caché sans le script */
+    header,section,footer{animation:monte .7s var(--expo) both}
+    section:nth-of-type(1){animation-delay:.07s}section:nth-of-type(2){animation-delay:.14s}footer{animation-delay:.21s}
+    @keyframes monte{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+  }
 </style>
 </head>
 <body>
 <main>
   <header>
-    <img src="logo-blanc.png" alt="Out of the Box" width="190" height="auto">
-    <p>Comprendre l&#x27;économie, une idée à la fois. Newsletters et vidéos, gratuites.</p>
+    <img src="logo-blanc.png" alt="Out of the Box" width="150" height="auto">
+    <h1>Comprendre l&#x27;économie, une idée à la fois.</h1>
+    <p>Newsletters et vidéos, gratuites.</p>
   </header>
   <section aria-labelledby="h-nl">
     <h2 id="h-nl">Les newsletters</h2>
