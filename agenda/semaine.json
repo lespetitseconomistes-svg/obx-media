@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-22T08:58",
+ "genere": "2026-10-23T00:12",
  "edition": "OBX-01",
  "numero": "01",
  "j0": "2026-10-18",
@@ -130,13 +130,13 @@
   "Feu vert newsletter pas encore donné",
   "Feu vert réseaux pas encore donné",
   "Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
-  "Contrôle de préparation : Mac sur BATTERIE (75 %) : le brancher avant samedi soir, le dimanche à 07h30 la production dure ~40 min"
+  "Contrôle de préparation : Mac sur BATTERIE (80 %) : le brancher avant samedi soir, le dimanche à 07h30 la production dure ~40 min"
  ],
  "jetons_a_renouveler": [
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 28
+   "jours_restants": 27
   }
  ],
  "editions": [
