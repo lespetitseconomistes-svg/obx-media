@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-23T07:40",
+ "genere": "2026-10-24T07:40",
  "edition": "OBX-01",
  "numero": "01",
  "j0": "2026-10-18",
@@ -8,8 +8,17 @@
  "publications": [
   {
    "edition": "OBX-01",
+   "reseau": "LinkedIn",
+   "quand": "2026-10-18T08:10",
+   "format": "Reel · Le mécanisme (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
+   "edition": "OBX-01",
    "reseau": "Instagram",
-   "quand": "2026-10-18T12:15",
+   "quand": "2026-10-18T12:00",
    "format": "Le pari de la semaine",
    "support": "carrousel",
    "mode": "auto",
@@ -18,7 +27,7 @@
   {
    "edition": "OBX-01",
    "reseau": "YouTube",
-   "quand": "2026-10-18T16:30",
+   "quand": "2026-10-18T16:35",
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
@@ -27,7 +36,7 @@
   {
    "edition": "OBX-01",
    "reseau": "TikTok",
-   "quand": "2026-10-18T19:00",
+   "quand": "2026-10-18T20:15",
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
@@ -36,7 +45,7 @@
   {
    "edition": "OBX-01",
    "reseau": "LinkedIn",
-   "quand": "2026-10-19T08:30",
+   "quand": "2026-10-19T08:05",
    "format": "Le mécanisme",
    "support": "document PDF",
    "mode": "manuel",
@@ -45,7 +54,7 @@
   {
    "edition": "OBX-01",
    "reseau": "X",
-   "quand": "2026-10-19T10:00",
+   "quand": "2026-10-19T10:25",
    "format": "Le mécanisme",
    "support": "fil",
    "mode": "manuel",
@@ -54,7 +63,7 @@
   {
    "edition": "OBX-01",
    "reseau": "TikTok",
-   "quand": "2026-10-19T19:00",
+   "quand": "2026-10-19T18:40",
    "format": "Le pari de la semaine",
    "support": "carrousel",
    "mode": "auto",
@@ -63,7 +72,7 @@
   {
    "edition": "OBX-01",
    "reseau": "LinkedIn",
-   "quand": "2026-10-20T08:30",
+   "quand": "2026-10-20T08:40",
    "format": "La semaine en 5 chiffres",
    "support": "document PDF",
    "mode": "manuel",
@@ -72,7 +81,7 @@
   {
    "edition": "OBX-01",
    "reseau": "X",
-   "quand": "2026-10-20T10:00",
+   "quand": "2026-10-20T10:25",
    "format": "La semaine en 5 chiffres",
    "support": "fil",
    "mode": "manuel",
@@ -81,7 +90,7 @@
   {
    "edition": "OBX-01",
    "reseau": "Instagram",
-   "quand": "2026-10-20T13:00",
+   "quand": "2026-10-20T12:50",
    "format": "Le mécanisme",
    "support": "carrousel",
    "mode": "auto",
@@ -90,7 +99,7 @@
   {
    "edition": "OBX-01",
    "reseau": "Instagram",
-   "quand": "2026-10-20T18:00",
+   "quand": "2026-10-20T18:40",
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
@@ -99,7 +108,7 @@
   {
    "edition": "OBX-01",
    "reseau": "Instagram",
-   "quand": "2026-10-21T09:00",
+   "quand": "2026-10-21T08:20",
    "format": "La semaine en 5 chiffres",
    "support": "carrousel",
    "mode": "auto",
@@ -107,8 +116,17 @@
   },
   {
    "edition": "OBX-01",
+   "reseau": "X",
+   "quand": "2026-10-21T14:00",
+   "format": "Reel · Le mécanisme (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
+   "edition": "OBX-01",
    "reseau": "Instagram",
-   "quand": "2026-10-21T18:00",
+   "quand": "2026-10-21T17:55",
    "format": "Le pari de la semaine",
    "support": "story (mise à jour du pari)",
    "mode": "manuel",
@@ -116,17 +134,19 @@
   }
  ],
  "problemes": [
-  "Instagram 18/10 12:15 : dossier absent",
-  "YouTube 18/10 16:30 : dossier absent",
-  "TikTok 18/10 19:00 : dossier absent",
-  "LinkedIn 19/10 08:30 : à produire",
-  "X 19/10 10:00 : à produire",
-  "TikTok 19/10 19:00 : dossier absent",
-  "LinkedIn 20/10 08:30 : à produire",
-  "X 20/10 10:00 : à produire",
-  "Instagram 20/10 13:00 : dossier absent",
-  "Instagram 20/10 18:00 : dossier absent",
-  "Instagram 21/10 09:00 : dossier absent",
+  "Instagram 18/10 12:00 : dossier absent",
+  "YouTube 18/10 16:35 : dossier absent",
+  "TikTok 18/10 20:15 : dossier absent",
+  "LinkedIn 19/10 08:05 : à produire",
+  "X 19/10 10:25 : à produire",
+  "TikTok 19/10 18:40 : dossier absent",
+  "LinkedIn 20/10 08:40 : à produire",
+  "X 20/10 10:25 : à produire",
+  "Instagram 20/10 12:50 : dossier absent",
+  "Instagram 20/10 18:40 : dossier absent",
+  "Instagram 21/10 08:20 : dossier absent",
+  "LinkedIn 18/10 08:10 : à produire",
+  "X 21/10 14:00 : à produire",
   "Feu vert newsletter pas encore donné",
   "Feu vert réseaux pas encore donné",
   "Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
@@ -136,7 +156,7 @@
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 27
+   "jours_restants": 26
   }
  ],
  "editions": [
