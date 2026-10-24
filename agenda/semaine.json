@@ -1,132 +1,132 @@
 {
- "genere": "2026-10-24T07:40",
- "edition": "OBX-01",
- "numero": "01",
- "j0": "2026-10-18",
+ "genere": "2026-10-24T18:38",
+ "edition": "OBX-02",
+ "numero": "02",
+ "j0": "2026-10-26",
  "feu_vert_newsletter": false,
- "feu_vert_reseaux": false,
+ "feu_vert_reseaux": true,
  "publications": [
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "LinkedIn",
-   "quand": "2026-10-18T08:10",
+   "quand": "2026-10-26T07:55",
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "Instagram",
-   "quand": "2026-10-18T12:00",
+   "quand": "2026-10-26T12:10",
    "format": "Le pari de la semaine",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "YouTube",
-   "quand": "2026-10-18T16:35",
+   "quand": "2026-10-26T15:50",
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "non programmable : aucun visuel dans le dossier"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "TikTok",
-   "quand": "2026-10-18T20:15",
+   "quand": "2026-10-26T19:35",
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "non programmable : aucun visuel dans le dossier"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "LinkedIn",
-   "quand": "2026-10-19T08:05",
+   "quand": "2026-10-27T08:20",
    "format": "Le mécanisme",
    "support": "document PDF",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "X",
-   "quand": "2026-10-19T10:25",
+   "quand": "2026-10-27T10:55",
    "format": "Le mécanisme",
    "support": "fil",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "TikTok",
-   "quand": "2026-10-19T18:40",
+   "quand": "2026-10-27T19:30",
    "format": "Le pari de la semaine",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "LinkedIn",
-   "quand": "2026-10-20T08:40",
+   "quand": "2026-10-28T09:00",
    "format": "La semaine en 5 chiffres",
    "support": "document PDF",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "X",
-   "quand": "2026-10-20T10:25",
+   "quand": "2026-10-28T10:15",
    "format": "La semaine en 5 chiffres",
    "support": "fil",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "Instagram",
-   "quand": "2026-10-20T12:50",
+   "quand": "2026-10-28T12:50",
    "format": "Le mécanisme",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "Instagram",
-   "quand": "2026-10-20T18:40",
+   "quand": "2026-10-28T18:15",
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "non programmable : aucun visuel dans le dossier"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "Instagram",
-   "quand": "2026-10-21T08:20",
+   "quand": "2026-10-29T08:45",
    "format": "La semaine en 5 chiffres",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "X",
-   "quand": "2026-10-21T14:00",
+   "quand": "2026-10-29T14:25",
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-01",
+   "edition": "OBX-02",
    "reseau": "Instagram",
-   "quand": "2026-10-21T17:55",
+   "quand": "2026-10-29T18:10",
    "format": "Le pari de la semaine",
    "support": "story (mise à jour du pari)",
    "mode": "manuel",
@@ -134,23 +134,11 @@
   }
  ],
  "problemes": [
-  "Instagram 18/10 12:00 : dossier absent",
-  "YouTube 18/10 16:35 : dossier absent",
-  "TikTok 18/10 20:15 : dossier absent",
-  "LinkedIn 19/10 08:05 : à produire",
-  "X 19/10 10:25 : à produire",
-  "TikTok 19/10 18:40 : dossier absent",
-  "LinkedIn 20/10 08:40 : à produire",
-  "X 20/10 10:25 : à produire",
-  "Instagram 20/10 12:50 : dossier absent",
-  "Instagram 20/10 18:40 : dossier absent",
-  "Instagram 21/10 08:20 : dossier absent",
-  "LinkedIn 18/10 08:10 : à produire",
-  "X 21/10 14:00 : à produire",
+  "YouTube 26/10 15:50 : non programmable : aucun visuel dans le dossier",
+  "TikTok 26/10 19:35 : non programmable : aucun visuel dans le dossier",
+  "Instagram 28/10 18:15 : non programmable : aucun visuel dans le dossier",
   "Feu vert newsletter pas encore donné",
-  "Feu vert réseaux pas encore donné",
-  "Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
-  "Contrôle de préparation : Mac sur BATTERIE (80 %) : le brancher avant samedi soir, le dimanche à 07h30 la production dure ~40 min"
+  "Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : "
  ],
  "jetons_a_renouveler": [
   {
@@ -161,10 +149,10 @@
  ],
  "editions": [
   {
-   "edition": "OBX-01",
-   "j0": "2026-10-18",
+   "edition": "OBX-02",
+   "j0": "2026-10-26",
    "feu_vert_newsletter": false,
-   "feu_vert_reseaux": false
+   "feu_vert_reseaux": true
   }
  ]
 }
