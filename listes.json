@@ -4,6 +4,14 @@
   "matieres-premieres": {
    "nom": "Matières premières",
    "description": "Chaque semaine, un dossier sur les matières premières : prix, mécanismes, paris des marchés et agenda."
+  },
+  "pays": {
+   "nom": "Le Pays de la semaine",
+   "description": "Chaque semaine, un pays décrypté : économie, géopolitique, matières premières clés, conflits passés et enjeux à venir."
+  },
+  "presidentielle-2027": {
+   "nom": "2027, autrement",
+   "description": "Jusqu'à la présidentielle, un regard décalé : ce que les programmes disent de l'économie et du monde, et ce qu'ils oublient."
   }
  }
 }
