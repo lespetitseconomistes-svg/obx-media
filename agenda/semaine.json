@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-26T13:56",
+ "genere": "2026-10-26T14:06",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -8,21 +8,12 @@
  "publications": [
   {
    "edition": "OBX-02",
-   "reseau": "LinkedIn",
-   "quand": "2026-10-26T07:55",
-   "format": "Reel · Le mécanisme (voix off)",
-   "support": "Reel / Short",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-02",
    "reseau": "Instagram",
    "quand": "2026-10-26T12:10",
    "format": "Le pari de la semaine",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-02",
@@ -31,7 +22,7 @@
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-02",
@@ -40,7 +31,7 @@
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-02",
@@ -57,6 +48,15 @@
    "quand": "2026-10-27T10:55",
    "format": "Le mécanisme",
    "support": "fil",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
+  },
+  {
+   "edition": "OBX-02",
+   "reseau": "LinkedIn",
+   "quand": "2026-10-27T12:10",
+   "format": "Reel · Le mécanisme (voix off)",
+   "support": "Reel / Short",
    "mode": "manuel",
    "statut": "manuel : à publier par toi"
   },
@@ -103,7 +103,7 @@
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-02",
