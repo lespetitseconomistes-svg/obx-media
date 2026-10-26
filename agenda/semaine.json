@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-25T23:37",
+ "genere": "2026-10-26T02:16",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -31,7 +31,7 @@
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "non programmable : aucun visuel dans le dossier"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-02",
@@ -40,7 +40,7 @@
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "non programmable : aucun visuel dans le dossier"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-02",
@@ -103,7 +103,7 @@
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "non programmable : aucun visuel dans le dossier"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-02",
@@ -134,16 +134,13 @@
   }
  ],
  "problemes": [
-  "YouTube 26/10 15:50 : non programmable : aucun visuel dans le dossier",
-  "TikTok 26/10 19:35 : non programmable : aucun visuel dans le dossier",
-  "Instagram 28/10 18:15 : non programmable : aucun visuel dans le dossier",
   "Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : "
  ],
  "jetons_a_renouveler": [
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 25
+   "jours_restants": 24
   }
  ],
  "editions": [
