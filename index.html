@@ -26,6 +26,7 @@
   .sub{display:block;color:var(--mut);font-size:14px;line-height:1.35;margin-top:2px}
   .grow{flex:1;min-width:0}
   .go{font-size:20px;flex:none;color:var(--mut)}
+  a.card.fort{background:var(--fg);color:var(--bg)}a.card.fort .sub,a.card.fort .go{color:#444}   /* « toutes les newsletters » : carte blanche mise en avant */
   .card.soon{border-left-color:#3a3a3a;color:var(--mut);background:#0d0d0d}
   .card.soon b{color:var(--mut)}
   .ic{width:28px;height:28px;flex:none;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
@@ -48,6 +49,7 @@
   <section aria-labelledby="h-nl">
     <h2 id="h-nl">Les newsletters</h2>
     <ul>
+      <li><a class="card fort" href="abonnement.html?liste=toutes"><svg class="ic" viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="14" width="52" height="38" rx="4"/><path d="M8 18l24 19 24-19"/></svg><span class="grow"><b>Les 3 newsletters d'un coup</b><span class="sub">Matières premières, Le Pays de la semaine et 2027, autrement : une seule inscription.</span></span><span class="go" aria-hidden="true">→</span></a></li>
       <li><a class="card" href="abonnement.html?liste=matieres-premieres"><svg class="ic" viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="14" width="52" height="38" rx="4"/><path d="M8 18l24 19 24-19"/></svg><span class="grow"><b>Matières premières</b><span class="sub">Chaque semaine, un dossier sur les matières premières : prix, mécanismes, paris des marchés et agenda.</span></span><span class="go" aria-hidden="true">→</span></a></li>
       <li><a class="card" href="abonnement.html?liste=pays"><svg class="ic" viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="14" width="52" height="38" rx="4"/><path d="M8 18l24 19 24-19"/></svg><span class="grow"><b>Le Pays de la semaine</b><span class="sub">Chaque semaine, un pays décrypté : économie, géopolitique, matières premières clés, conflits passés et enjeux à venir.</span></span><span class="go" aria-hidden="true">→</span></a></li>
       <li><a class="card" href="abonnement.html?liste=presidentielle-2027"><svg class="ic" viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="14" width="52" height="38" rx="4"/><path d="M8 18l24 19 24-19"/></svg><span class="grow"><b>2027, autrement</b><span class="sub">Jusqu&#x27;à la présidentielle, un regard décalé : ce que les programmes disent de l&#x27;économie et du monde, et ce qu&#x27;ils oublient.</span></span><span class="go" aria-hidden="true">→</span></a></li>

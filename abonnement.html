@@ -21,7 +21,12 @@
   button{width:100%;height:56px;border:0;border-radius:12px;background:#fff;color:#000;font:700 17px Helvetica,Arial,sans-serif;cursor:pointer;transition:transform .1s var(--expo)}
   button:active{transform:scale(.97)}
   button:focus-visible{outline:3px solid #fff;outline-offset:3px}
-  button[disabled]{opacity:.6;cursor:wait}
+  button[disabled]{opacity:.45;cursor:not-allowed}
+  button.attente{opacity:.6;cursor:wait}
+  button.succes{background:#1f9d55;color:#fff;opacity:1;cursor:default}
+  #retour.erreur{color:#ff8a80}
+  #retour.ok{color:#7ee2a8}
+  .check{display:inline-block;margin-right:8px}
   #retour{margin-top:16px;min-height:1.6em}
   .piege{position:absolute;left:-9999px;height:0;overflow:hidden}
   a{color:#fff}
@@ -54,25 +59,58 @@
   var src = (q.get("src") || "").toLowerCase().replace(/[^a-z0-9_-]/g, "").slice(0, 30);   // réseau d'origine, ex. ?src=instagram
   var liste = (q.get("liste") || "").toLowerCase();
   if(src) document.getElementById("retour-liens").href = "./?src=" + encodeURIComponent(src);   // ex. abonnement.html?liste=matieres-premieres
-  fetch("listes.json").then(function(x){ return x.json(); }).then(function(L){
-    if(!liste || !L.listes[liste]) liste = L.defaut;
-    var l = L.listes[liste];
-    document.getElementById("nomliste").textContent = l.nom;
-    document.getElementById("titre").textContent = l.nom + " : chaque semaine.";
-    if(l.description) document.getElementById("desc").textContent = l.description;
-    document.title = l.nom + " · Out of the Box";
+  var L = null, slugs = [];
+  var ok = document.getElementById("ok"), libelle = b.textContent;
+  function majBouton(){ b.disabled = !ok.checked; }
+  ok.addEventListener("change", majBouton); majBouton();
+  fetch("listes.json").then(function(x){ return x.json(); }).then(function(d){
+    L = d; var tout = (liste === "toutes");
+    if(!tout && (!liste || !L.listes[liste])) liste = L.defaut;
+    if(tout){
+      slugs = Object.keys(L.listes);
+      var noms = slugs.map(function(k){ return "« " + L.listes[k].nom + " »"; });
+      var joindre = function(t){ return t.length < 2 ? t.join("") : t.slice(0, -1).join(", ") + " et " + t[t.length - 1]; };
+      document.getElementById("texte").innerHTML = "J'accepte de recevoir les newsletters hebdomadaires Out of the Box <b id=\"nomliste\"></b> par e-mail. Je peux me désinscrire à tout moment en un clic, newsletter par newsletter.";
+      document.getElementById("nomliste").textContent = joindre(noms);
+      document.getElementById("titre").textContent = "Les " + slugs.length + " newsletters, d'un coup.";
+      document.getElementById("desc").textContent = "Une seule inscription pour recevoir les " + slugs.length + " newsletters Out of the Box : " + joindre(slugs.map(function(k){ return L.listes[k].nom; })) + ". Gratuit, désinscription en un clic pour chacune.";
+      document.title = "Les newsletters · Out of the Box";
+    } else {
+      var l = L.listes[liste];
+      document.getElementById("nomliste").textContent = l.nom;
+      document.getElementById("titre").textContent = l.nom + " : chaque semaine.";
+      if(l.description) document.getElementById("desc").textContent = l.description;
+      document.title = l.nom + " · Out of the Box";
+    }
   }).catch(function(){});
+  function envoyer(slug, email){
+    return fetch(URL_INSCRIPTION, {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({email: email, liste: slug, source: src, consentement: true, website: document.getElementById("website").value, texte_consentement: document.getElementById("texte").textContent})})
+    .then(function(x){ return x.json().catch(function(){ return {ok:false,message:"Réponse inattendue."}; }); });
+  }
   f.addEventListener("submit", function(e){
     e.preventDefault();
     var email = document.getElementById("email").value.trim();
-    if(!email || !document.getElementById("ok").checked){ r.textContent = "Merci de saisir votre adresse et de cocher la case de consentement."; return; }
-    b.disabled = true; r.textContent = "Envoi…";
-    fetch(URL_INSCRIPTION, {method:"POST", headers:{"Content-Type":"application/json"},
-      body: JSON.stringify({email: email, liste: liste, source: src, consentement: true, website: document.getElementById("website").value, texte_consentement: document.getElementById("texte").textContent})})
-    .then(function(x){ return x.json().catch(function(){ return {ok:false,message:"Réponse inattendue."}; }); })
-    .then(function(d){ r.textContent = d.message || "Merci !"; if(d.ok){ f.reset(); } })
-    .catch(function(){ r.textContent = "Impossible de joindre le service. Réessayez dans un instant."; })
-    .then(function(){ b.disabled = false; });
+    r.className = "";
+    if(!ok.checked){ r.className = "erreur"; r.textContent = "Cochez la case « J'accepte » pour vous inscrire : sans votre accord, aucune inscription n'est possible."; ok.focus(); return; }
+    if(!email){ r.className = "erreur"; r.textContent = "Merci de saisir votre adresse e-mail."; document.getElementById("email").focus(); return; }
+    var cibles = (liste === "toutes") ? slugs.slice() : [liste];
+    if(!cibles.length) cibles = [liste || "matieres-premieres"];
+    b.disabled = true; b.className = "attente"; r.textContent = "Envoi…";
+    var resultats = [], chaine = Promise.resolve();
+    cibles.forEach(function(slug){ chaine = chaine.then(function(){ return envoyer(slug, email); }).then(function(d){ resultats.push(d); }); });
+    chaine.then(function(){
+      var tous = resultats.every(function(d){ return d && d.ok; });
+      if(tous){
+        b.className = "succes"; b.disabled = true; b.innerHTML = '<span class="check">✓</span>Inscription envoyée';
+        r.className = "ok";
+        r.textContent = (cibles.length > 1 ? "Merci ! " + cibles.length + " e-mails de confirmation viennent de vous être envoyés : un clic dans chacun suffit pour valider." : (resultats[0].message || "Merci !")) + " Pensez à regarder vos courriers indésirables.";
+        f.reset(); ok.checked = false;
+      } else {
+        var pb = resultats.filter(function(d){ return !(d && d.ok); })[0] || {};
+        b.className = ""; majBouton(); r.className = "erreur"; r.textContent = pb.message || "Une inscription n'a pas abouti. Réessayez dans un instant.";
+      }
+    }).catch(function(){ b.className = ""; majBouton(); r.className = "erreur"; r.textContent = "Impossible de joindre le service. Réessayez dans un instant."; });
   });
 })();
 </script>
