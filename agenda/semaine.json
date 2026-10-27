@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-27T10:24",
+ "genere": "2026-10-27T11:27",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -67,7 +67,7 @@
    "format": "Le pari de la semaine",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-02",
@@ -103,7 +103,7 @@
    "format": "Le mécanisme",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-02",
@@ -139,7 +139,7 @@
    "format": "La semaine en 5 chiffres",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
