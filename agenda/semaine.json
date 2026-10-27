@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-27T11:55",
+ "genere": "2026-10-27T11:59",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -54,7 +54,7 @@
   {
    "edition": "OBX-02",
    "reseau": "LinkedIn",
-   "quand": "2026-10-27T12:35",
+   "quand": "2026-10-27T12:45",
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "manuel",
@@ -112,7 +112,7 @@
    "format": "Reel · Le mécanisme (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
