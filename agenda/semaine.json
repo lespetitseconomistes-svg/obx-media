@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-27T00:51",
+ "genere": "2026-10-27T07:40",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -88,6 +88,15 @@
    "statut": "manuel : à publier par toi"
   },
   {
+   "edition": "OBX-PAYS-01",
+   "reseau": "YouTube",
+   "quand": "2026-10-28T12:15",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
    "edition": "OBX-02",
    "reseau": "Instagram",
    "quand": "2026-10-28T12:50",
@@ -106,6 +115,24 @@
    "statut": "feu vert donné, pas encore programmé"
   },
   {
+   "edition": "OBX-PAYS-01",
+   "reseau": "Instagram",
+   "quand": "2026-10-28T20:00",
+   "format": "Story · sondage scénarios",
+   "support": "story (sondage, posée à la main)",
+   "mode": "manuel",
+   "statut": "manuel : story à poster dans l'appli"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "LinkedIn",
+   "quand": "2026-10-29T08:30",
+   "format": "La politique",
+   "support": "document PDF",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
    "edition": "OBX-02",
    "reseau": "Instagram",
    "quand": "2026-10-29T08:45",
@@ -113,6 +140,24 @@
    "support": "carrousel",
    "mode": "auto",
    "statut": "programmé dans Buffer"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "X",
+   "quand": "2026-10-29T09:45",
+   "format": "La politique",
+   "support": "fil",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "Instagram",
+   "quand": "2026-10-29T11:40",
+   "format": "Le pays en bref",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
   },
   {
    "edition": "OBX-02",
@@ -131,10 +176,146 @@
    "support": "story (mise à jour du pari)",
    "mode": "manuel",
    "statut": "manuel : story à poster dans l'appli"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "TikTok",
+   "quand": "2026-10-29T20:05",
+   "format": "Le pays en bref",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "X",
+   "quand": "2026-10-30T09:15",
+   "format": "Comparaison avant / maintenant (image unique)",
+   "support": "fil",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "Instagram",
+   "quand": "2026-10-30T11:40",
+   "format": "La politique",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "LinkedIn",
+   "quand": "2026-10-30T12:55",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "Instagram",
+   "quand": "2026-10-30T18:25",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "Instagram",
+   "quand": "2026-10-31T10:50",
+   "format": "Trois idées reçues",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "TikTok",
+   "quand": "2026-10-31T18:20",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "Instagram",
+   "quand": "2026-11-01T10:25",
+   "format": "L'économie",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "TikTok",
+   "quand": "2026-11-01T17:15",
+   "format": "L'économie",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "Instagram",
+   "quand": "2026-11-01T20:05",
+   "format": "Story · sondage prochain pays",
+   "support": "story (sondage, posée à la main)",
+   "mode": "manuel",
+   "statut": "manuel : story à poster dans l'appli"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "Instagram",
+   "quand": "2026-11-02T08:25",
+   "format": "Les matières premières",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "Instagram",
+   "quand": "2026-11-03T11:40",
+   "format": "La géopolitique",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "X",
+   "quand": "2026-11-03T14:20",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "à produire"
   }
  ],
  "problemes": [
-  "Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : "
+  "[OBX-02] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
+  "[OBX-PAYS-01] YouTube 28/10 12:15 : dossier absent",
+  "[OBX-PAYS-01] LinkedIn 30/10 12:55 : à produire",
+  "[OBX-PAYS-01] X 03/11 14:20 : à produire",
+  "[OBX-PAYS-01] LinkedIn 29/10 08:30 : à produire",
+  "[OBX-PAYS-01] X 29/10 09:45 : à produire",
+  "[OBX-PAYS-01] Instagram 29/10 11:40 : dossier absent",
+  "[OBX-PAYS-01] TikTok 29/10 20:05 : dossier absent",
+  "[OBX-PAYS-01] X 30/10 09:15 : à produire",
+  "[OBX-PAYS-01] Instagram 30/10 11:40 : dossier absent",
+  "[OBX-PAYS-01] Instagram 30/10 18:25 : dossier absent",
+  "[OBX-PAYS-01] Instagram 31/10 10:50 : dossier absent",
+  "[OBX-PAYS-01] TikTok 31/10 18:20 : dossier absent",
+  "[OBX-PAYS-01] Instagram 01/11 10:25 : dossier absent",
+  "[OBX-PAYS-01] TikTok 01/11 17:15 : dossier absent",
+  "[OBX-PAYS-01] Instagram 02/11 08:25 : dossier absent",
+  "[OBX-PAYS-01] Instagram 03/11 11:40 : dossier absent",
+  "[OBX-PAYS-01] Feu vert newsletter pas encore donné",
+  "[OBX-PAYS-01] Feu vert réseaux pas encore donné",
+  "[OBX-PAYS-01] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : "
  ],
  "jetons_a_renouveler": [
   {
@@ -149,6 +330,12 @@
    "j0": "2026-10-26",
    "feu_vert_newsletter": true,
    "feu_vert_reseaux": true
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "j0": "2026-10-28",
+   "feu_vert_newsletter": false,
+   "feu_vert_reseaux": false
   }
  ]
 }
