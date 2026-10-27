@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-27T07:40",
+ "genere": "2026-10-27T09:06",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -94,7 +94,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-02",
@@ -130,7 +130,7 @@
    "format": "La politique",
    "support": "document PDF",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
    "edition": "OBX-02",
@@ -148,7 +148,7 @@
    "format": "La politique",
    "support": "fil",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -157,7 +157,7 @@
    "format": "Le pays en bref",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-02",
@@ -184,7 +184,7 @@
    "format": "Le pays en bref",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -193,7 +193,7 @@
    "format": "Comparaison avant / maintenant (image unique)",
    "support": "fil",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -202,7 +202,7 @@
    "format": "La politique",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -211,7 +211,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -220,7 +220,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -229,7 +229,7 @@
    "format": "Trois idées reçues",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -238,7 +238,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -247,7 +247,7 @@
    "format": "L'économie",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -256,7 +256,7 @@
    "format": "L'économie",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -274,7 +274,7 @@
    "format": "Les matières premières",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -283,7 +283,7 @@
    "format": "La géopolitique",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "dossier absent"
+   "statut": "prêt, en attente du feu vert réseaux"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -292,27 +292,11 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "manuel",
-   "statut": "à produire"
+   "statut": "manuel : à publier par toi"
   }
  ],
  "problemes": [
   "[OBX-02] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
-  "[OBX-PAYS-01] YouTube 28/10 12:15 : dossier absent",
-  "[OBX-PAYS-01] LinkedIn 30/10 12:55 : à produire",
-  "[OBX-PAYS-01] X 03/11 14:20 : à produire",
-  "[OBX-PAYS-01] LinkedIn 29/10 08:30 : à produire",
-  "[OBX-PAYS-01] X 29/10 09:45 : à produire",
-  "[OBX-PAYS-01] Instagram 29/10 11:40 : dossier absent",
-  "[OBX-PAYS-01] TikTok 29/10 20:05 : dossier absent",
-  "[OBX-PAYS-01] X 30/10 09:15 : à produire",
-  "[OBX-PAYS-01] Instagram 30/10 11:40 : dossier absent",
-  "[OBX-PAYS-01] Instagram 30/10 18:25 : dossier absent",
-  "[OBX-PAYS-01] Instagram 31/10 10:50 : dossier absent",
-  "[OBX-PAYS-01] TikTok 31/10 18:20 : dossier absent",
-  "[OBX-PAYS-01] Instagram 01/11 10:25 : dossier absent",
-  "[OBX-PAYS-01] TikTok 01/11 17:15 : dossier absent",
-  "[OBX-PAYS-01] Instagram 02/11 08:25 : dossier absent",
-  "[OBX-PAYS-01] Instagram 03/11 11:40 : dossier absent",
   "[OBX-PAYS-01] Feu vert newsletter pas encore donné",
   "[OBX-PAYS-01] Feu vert réseaux pas encore donné",
   "[OBX-PAYS-01] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : "
