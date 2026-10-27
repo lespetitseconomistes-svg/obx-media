@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-27T11:59",
+ "genere": "2026-10-27T12:05",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -94,7 +94,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-02",
@@ -157,7 +157,7 @@
    "format": "Le pays en bref",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-02",
@@ -184,7 +184,7 @@
    "format": "Le pays en bref",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -202,7 +202,7 @@
    "format": "La politique",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -220,7 +220,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -229,7 +229,7 @@
    "format": "Trois idées reçues",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -238,7 +238,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -247,7 +247,7 @@
    "format": "L'économie",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -256,7 +256,7 @@
    "format": "L'économie",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -274,7 +274,7 @@
    "format": "Les matières premières",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -283,7 +283,7 @@
    "format": "La géopolitique",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -298,7 +298,6 @@
  "problemes": [
   "[OBX-02] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
   "[OBX-PAYS-01] Feu vert newsletter pas encore donné",
-  "[OBX-PAYS-01] Feu vert réseaux pas encore donné",
   "[OBX-PAYS-01] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : "
  ],
  "jetons_a_renouveler": [
@@ -319,7 +318,7 @@
    "edition": "OBX-PAYS-01",
    "j0": "2026-10-28",
    "feu_vert_newsletter": false,
-   "feu_vert_reseaux": false
+   "feu_vert_reseaux": true
   }
  ]
 }
