@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-27T12:05",
+ "genere": "2026-10-27T16:06",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -157,7 +157,7 @@
    "format": "Le pays en bref",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-02",
@@ -184,7 +184,7 @@
    "format": "Le pays en bref",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -202,7 +202,7 @@
    "format": "La politique",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -229,7 +229,7 @@
    "format": "Trois idées reçues",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -256,7 +256,7 @@
    "format": "L'économie",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
