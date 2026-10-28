@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-27T16:06",
+ "genere": "2026-10-28T07:40",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -297,14 +297,13 @@
  ],
  "problemes": [
   "[OBX-02] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
-  "[OBX-PAYS-01] Feu vert newsletter pas encore donné",
   "[OBX-PAYS-01] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : "
  ],
  "jetons_a_renouveler": [
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 23
+   "jours_restants": 22
   }
  ],
  "editions": [
@@ -317,7 +316,7 @@
   {
    "edition": "OBX-PAYS-01",
    "j0": "2026-10-28",
-   "feu_vert_newsletter": false,
+   "feu_vert_newsletter": true,
    "feu_vert_reseaux": true
   }
  ]
