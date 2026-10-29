@@ -1,11 +1,74 @@
 {
- "genere": "2026-10-29T18:48",
+ "genere": "2026-10-29T22:50",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
  "feu_vert_newsletter": true,
  "feu_vert_reseaux": true,
  "publications": [
+  {
+   "edition": "OBX-2027-01",
+   "reseau": "LinkedIn",
+   "quand": "2026-10-23T08:35",
+   "format": "Le focus : une idée face à la théorie",
+   "support": "document PDF",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
+   "edition": "OBX-2027-01",
+   "reseau": "YouTube",
+   "quand": "2026-10-23T16:55",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-2027-01",
+   "reseau": "TikTok",
+   "quand": "2026-10-23T21:10",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-2027-01",
+   "reseau": "Instagram",
+   "quand": "2026-10-24T14:05",
+   "format": "Le focus : une idée face à la théorie",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-2027-01",
+   "reseau": "Instagram",
+   "quand": "2026-10-24T18:15",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-2027-01",
+   "reseau": "Instagram",
+   "quand": "2026-10-25T15:00",
+   "format": "La semaine politique en chiffres",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-2027-01",
+   "reseau": "X",
+   "quand": "2026-10-26T10:20",
+   "format": "Le focus : une idée face à la théorie",
+   "support": "fil",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
   {
    "edition": "OBX-02",
    "reseau": "Instagram",
@@ -50,6 +113,15 @@
    "support": "fil",
    "mode": "manuel",
    "statut": "manuel : à publier par toi"
+  },
+  {
+   "edition": "OBX-2027-01",
+   "reseau": "LinkedIn",
+   "quand": "2026-10-27T12:15",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "à produire"
   },
   {
    "edition": "OBX-02",
@@ -97,6 +169,15 @@
    "statut": "programmé dans Buffer"
   },
   {
+   "edition": "OBX-2027-01",
+   "reseau": "X",
+   "quand": "2026-10-28T15:45",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
    "edition": "OBX-02",
    "reseau": "Instagram",
    "quand": "2026-10-28T18:15",
@@ -104,6 +185,15 @@
    "support": "Reel / Short",
    "mode": "auto",
    "statut": "programmé dans Buffer"
+  },
+  {
+   "edition": "OBX-2027-01",
+   "reseau": "TikTok",
+   "quand": "2026-10-28T18:40",
+   "format": "Le focus : une idée face à la théorie",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -184,7 +274,7 @@
    "format": "Le pays en bref",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "programmé dans Buffer"
+   "statut": "publié"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -295,7 +385,20 @@
    "statut": "manuel : à publier par toi"
   }
  ],
- "problemes": [],
+ "problemes": [
+  "[OBX-2027-01] LinkedIn 23/10 08:35 : à produire",
+  "[OBX-2027-01] Instagram 24/10 14:05 : dossier absent",
+  "[OBX-2027-01] Instagram 25/10 15:00 : dossier absent",
+  "[OBX-2027-01] TikTok 28/10 18:40 : dossier absent",
+  "[OBX-2027-01] X 26/10 10:20 : à produire",
+  "[OBX-2027-01] YouTube 23/10 16:55 : dossier absent",
+  "[OBX-2027-01] TikTok 23/10 21:10 : dossier absent",
+  "[OBX-2027-01] Instagram 24/10 18:15 : dossier absent",
+  "[OBX-2027-01] LinkedIn 27/10 12:15 : à produire",
+  "[OBX-2027-01] X 28/10 15:45 : à produire",
+  "[OBX-2027-01] Feu vert newsletter pas encore donné",
+  "[OBX-2027-01] Feu vert réseaux pas encore donné"
+ ],
  "jetons_a_renouveler": [
   {
    "nom": "Clé API Buffer (obx-planification)",
@@ -315,6 +418,12 @@
    "j0": "2026-10-28",
    "feu_vert_newsletter": true,
    "feu_vert_reseaux": true
+  },
+  {
+   "edition": "OBX-2027-01",
+   "j0": "2026-10-23",
+   "feu_vert_newsletter": false,
+   "feu_vert_reseaux": false
   }
  ]
 }
