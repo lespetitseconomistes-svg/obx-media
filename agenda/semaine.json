@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-29T07:40",
+ "genere": "2026-10-29T09:41",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -88,15 +88,6 @@
    "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-PAYS-01",
-   "reseau": "YouTube",
-   "quand": "2026-10-28T12:15",
-   "format": "Reel · Le pays en une minute (voix off)",
-   "support": "Reel / Short",
-   "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
-  },
-  {
    "edition": "OBX-02",
    "reseau": "Instagram",
    "quand": "2026-10-28T12:50",
@@ -158,6 +149,15 @@
    "support": "carrousel",
    "mode": "auto",
    "statut": "programmé dans Buffer"
+  },
+  {
+   "edition": "OBX-PAYS-01",
+   "reseau": "YouTube",
+   "quand": "2026-10-29T12:55",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-02",
