@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-28T07:50",
+ "genere": "2026-10-29T07:40",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -247,7 +247,7 @@
    "format": "L'économie",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -274,7 +274,7 @@
    "format": "Les matières premières",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -283,7 +283,7 @@
    "format": "La géopolitique",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -295,15 +295,12 @@
    "statut": "manuel : à publier par toi"
   }
  ],
- "problemes": [
-  "[OBX-02] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
-  "[OBX-PAYS-01] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : "
- ],
+ "problemes": [],
  "jetons_a_renouveler": [
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 22
+   "jours_restants": 21
   }
  ],
  "editions": [
