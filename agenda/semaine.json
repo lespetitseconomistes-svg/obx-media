@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-30T07:40",
+ "genere": "2026-10-30T09:33",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -107,17 +107,8 @@
   },
   {
    "edition": "OBX-PAYS-01",
-   "reseau": "Instagram",
-   "quand": "2026-10-28T20:00",
-   "format": "Story · sondage scénarios",
-   "support": "story (sondage, posée à la main)",
-   "mode": "manuel",
-   "statut": "manuel : story à poster dans l'appli"
-  },
-  {
-   "edition": "OBX-PAYS-01",
    "reseau": "LinkedIn",
-   "quand": "2026-10-29T08:30",
+   "quand": "2026-10-29T08:10",
    "format": "La politique",
    "support": "document PDF",
    "mode": "manuel",
@@ -135,7 +126,7 @@
   {
    "edition": "OBX-PAYS-01",
    "reseau": "X",
-   "quand": "2026-10-29T09:45",
+   "quand": "2026-10-29T09:30",
    "format": "La politique",
    "support": "fil",
    "mode": "manuel",
@@ -144,20 +135,11 @@
   {
    "edition": "OBX-PAYS-01",
    "reseau": "Instagram",
-   "quand": "2026-10-29T11:40",
+   "quand": "2026-10-29T11:55",
    "format": "Le pays en bref",
    "support": "carrousel",
    "mode": "auto",
    "statut": "programmé dans Buffer"
-  },
-  {
-   "edition": "OBX-PAYS-01",
-   "reseau": "YouTube",
-   "quand": "2026-10-29T12:55",
-   "format": "Reel · Le pays en une minute (voix off)",
-   "support": "Reel / Short",
-   "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-02",
@@ -169,18 +151,9 @@
    "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-02",
-   "reseau": "Instagram",
-   "quand": "2026-10-29T18:10",
-   "format": "Le pari de la semaine",
-   "support": "story (mise à jour du pari)",
-   "mode": "manuel",
-   "statut": "manuel : story à poster dans l'appli"
-  },
-  {
    "edition": "OBX-PAYS-01",
    "reseau": "TikTok",
-   "quand": "2026-10-29T20:05",
+   "quand": "2026-10-29T18:40",
    "format": "Le pays en bref",
    "support": "carrousel",
    "mode": "auto",
@@ -198,7 +171,7 @@
   {
    "edition": "OBX-PAYS-01",
    "reseau": "X",
-   "quand": "2026-10-30T09:15",
+   "quand": "2026-10-30T09:00",
    "format": "Comparaison avant / maintenant (image unique)",
    "support": "fil",
    "mode": "manuel",
@@ -223,6 +196,15 @@
    "statut": "manuel : à publier par toi"
   },
   {
+   "edition": "OBX-PAYS-01",
+   "reseau": "YouTube",
+   "quand": "2026-10-30T14:10",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "programmé dans Buffer"
+  },
+  {
    "edition": "OBX-2027-01",
    "reseau": "YouTube",
    "quand": "2026-10-30T18:15",
@@ -238,7 +220,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-2027-01",
@@ -252,7 +234,7 @@
   {
    "edition": "OBX-PAYS-01",
    "reseau": "Instagram",
-   "quand": "2026-10-31T10:50",
+   "quand": "2026-10-31T11:30",
    "format": "Trois idées reçues",
    "support": "carrousel",
    "mode": "auto",
@@ -274,7 +256,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-2027-01",
@@ -288,7 +270,7 @@
   {
    "edition": "OBX-PAYS-01",
    "reseau": "Instagram",
-   "quand": "2026-11-01T10:25",
+   "quand": "2026-11-01T11:35",
    "format": "L'économie",
    "support": "carrousel",
    "mode": "auto",
@@ -306,20 +288,11 @@
   {
    "edition": "OBX-PAYS-01",
    "reseau": "TikTok",
-   "quand": "2026-11-01T17:15",
+   "quand": "2026-11-01T18:00",
    "format": "L'économie",
    "support": "carrousel",
    "mode": "auto",
    "statut": "programmé dans Buffer"
-  },
-  {
-   "edition": "OBX-PAYS-01",
-   "reseau": "Instagram",
-   "quand": "2026-11-01T20:05",
-   "format": "Story · sondage prochain pays",
-   "support": "story (sondage, posée à la main)",
-   "mode": "manuel",
-   "statut": "manuel : story à poster dans l'appli"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -342,7 +315,7 @@
   {
    "edition": "OBX-PAYS-01",
    "reseau": "Instagram",
-   "quand": "2026-11-03T11:40",
+   "quand": "2026-11-03T12:15",
    "format": "La géopolitique",
    "support": "carrousel",
    "mode": "auto",
