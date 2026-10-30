@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-30T12:05",
+ "genere": "2026-10-30T18:47",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -202,7 +202,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "programmé dans Buffer"
+   "statut": "publié"
   },
   {
    "edition": "OBX-2027-01",
@@ -220,7 +220,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "programmé dans Buffer"
+   "statut": "publié"
   },
   {
    "edition": "OBX-2027-01",
@@ -247,7 +247,7 @@
    "format": "Le focus : une idée face à la théorie",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -256,7 +256,7 @@
    "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-2027-01",
@@ -283,7 +283,7 @@
    "format": "La semaine politique en chiffres",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   },
   {
    "edition": "OBX-PAYS-01",
@@ -355,15 +355,13 @@
    "format": "Le focus : une idée face à la théorie",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "prêt, en attente du feu vert réseaux"
+   "statut": "feu vert donné, pas encore programmé"
   }
  ],
  "problemes": [
   "[OBX-2027-01] YouTube 30/10 18:15 : non programmable : pas de légende prête (à écrire ou à produire)",
   "[OBX-2027-01] TikTok 30/10 20:50 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-2027-01] Instagram 31/10 18:35 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-2027-01] Feu vert newsletter pas encore donné",
-  "[OBX-2027-01] Feu vert réseaux pas encore donné"
+  "[OBX-2027-01] Instagram 31/10 18:35 : non programmable : pas de légende prête (à écrire ou à produire)"
  ],
  "jetons_a_renouveler": [
   {
@@ -388,8 +386,8 @@
   {
    "edition": "OBX-2027-01",
    "j0": "2026-10-30",
-   "feu_vert_newsletter": false,
-   "feu_vert_reseaux": false
+   "feu_vert_newsletter": true,
+   "feu_vert_reseaux": true
   }
  ]
 }
