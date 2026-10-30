@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-30T18:47",
+ "genere": "2026-10-30T19:05",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -247,7 +247,7 @@
    "format": "Le focus : une idée face à la théorie",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
