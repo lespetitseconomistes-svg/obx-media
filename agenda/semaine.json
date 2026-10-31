@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-31T07:40",
+ "genere": "2026-10-31T15:05",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -283,7 +283,7 @@
    "format": "La semaine politique en chiffres",
    "support": "carrousel",
    "mode": "auto",
-   "statut": "feu vert donné, pas encore programmé"
+   "statut": "programmé dans Buffer"
   },
   {
    "edition": "OBX-PAYS-01",
