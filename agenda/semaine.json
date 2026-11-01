@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-31T15:05",
+ "genere": "2026-11-01T07:40",
  "edition": "OBX-02",
  "numero": "02",
  "j0": "2026-10-26",
@@ -359,15 +359,21 @@
   }
  ],
  "problemes": [
+  "[OBX-02] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
+  "[OBX-02] Contrôle de préparation : second compte Buffer : 2e compte Buffer en limite de débit jusqu'à 21/11 23:11 (Paris)",
+  "[OBX-PAYS-01] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
+  "[OBX-PAYS-01] Contrôle de préparation : second compte Buffer : 2e compte Buffer en limite de débit jusqu'à 21/11 23:11 (Paris)",
   "[OBX-2027-01] YouTube 30/10 18:15 : non programmable : pas de légende prête (à écrire ou à produire)",
   "[OBX-2027-01] TikTok 30/10 20:50 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-2027-01] Instagram 31/10 18:35 : non programmable : pas de légende prête (à écrire ou à produire)"
+  "[OBX-2027-01] Instagram 31/10 18:35 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-2027-01] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
+  "[OBX-2027-01] Contrôle de préparation : second compte Buffer : 2e compte Buffer en limite de débit jusqu'à 21/11 23:11 (Paris)"
  ],
  "jetons_a_renouveler": [
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 19
+   "jours_restants": 18
   }
  ],
  "editions": [
