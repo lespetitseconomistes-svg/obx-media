@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-03T22:49",
+ "genere": "2026-11-04T00:21",
  "edition": "OBX-03",
  "numero": "03",
  "j0": "2026-11-02",
@@ -395,7 +395,7 @@
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 16
+   "jours_restants": 15
   }
  ],
  "editions": [
