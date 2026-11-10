@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-09T07:40",
+ "genere": "2026-11-10T07:40",
  "edition": "OBX-04",
  "numero": "04",
  "j0": "2026-11-09",
@@ -398,12 +398,12 @@
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 10
+   "jours_restants": 9
   },
   {
    "nom": "Autorisation LinkedIn (profil)",
    "expire": "2026-12-21",
-   "jours_restants": 42
+   "jours_restants": 41
   }
  ],
  "editions": [
