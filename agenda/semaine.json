@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-10T07:40",
+ "genere": "2026-11-11T07:40",
  "edition": "OBX-04",
  "numero": "04",
  "j0": "2026-11-09",
@@ -79,15 +79,6 @@
    "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-PAYS-03",
-   "reseau": "YouTube",
-   "quand": "2026-11-04T11:05",
-   "format": "Reel · Le pays en une minute (voix off)",
-   "support": "Reel / Short",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
    "edition": "OBX-2027-01",
    "reseau": "X",
    "quand": "2026-11-04T15:55",
@@ -106,114 +97,6 @@
    "statut": "programmé dans Buffer"
   },
   {
-   "edition": "OBX-PAYS-03",
-   "reseau": "LinkedIn",
-   "quand": "2026-11-05T07:55",
-   "format": "La politique",
-   "support": "document PDF",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "X",
-   "quand": "2026-11-05T10:00",
-   "format": "La politique",
-   "support": "fil",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "Instagram",
-   "quand": "2026-11-05T12:40",
-   "format": "Le pays en bref",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "TikTok",
-   "quand": "2026-11-05T19:25",
-   "format": "Le pays en bref",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "X",
-   "quand": "2026-11-06T09:00",
-   "format": "Comparaison avant / maintenant (image unique)",
-   "support": "fil",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "Instagram",
-   "quand": "2026-11-06T11:35",
-   "format": "La politique",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "LinkedIn",
-   "quand": "2026-11-06T12:50",
-   "format": "Reel · Le pays en une minute (voix off)",
-   "support": "Reel / Short",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "Instagram",
-   "quand": "2026-11-06T17:25",
-   "format": "Reel · Le pays en une minute (voix off)",
-   "support": "Reel / Short",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "Instagram",
-   "quand": "2026-11-07T11:15",
-   "format": "Trois idées reçues",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "TikTok",
-   "quand": "2026-11-07T19:35",
-   "format": "Reel · Le pays en une minute (voix off)",
-   "support": "Reel / Short",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "Instagram",
-   "quand": "2026-11-08T11:35",
-   "format": "L'économie",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "TikTok",
-   "quand": "2026-11-08T18:25",
-   "format": "L'économie",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
    "edition": "OBX-04",
    "reseau": "LinkedIn",
    "quand": "2026-11-09T08:10",
@@ -221,15 +104,6 @@
    "support": "Reel / Short",
    "mode": "manuel",
    "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "Instagram",
-   "quand": "2026-11-09T08:55",
-   "format": "Les matières premières",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
   },
   {
    "edition": "OBX-04",
@@ -277,24 +151,6 @@
    "statut": "manuel : à publier par toi"
   },
   {
-   "edition": "OBX-PAYS-03",
-   "reseau": "Instagram",
-   "quand": "2026-11-10T12:55",
-   "format": "La géopolitique",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-PAYS-03",
-   "reseau": "X",
-   "quand": "2026-11-10T15:45",
-   "format": "Reel · Le pays en une minute (voix off)",
-   "support": "Reel / Short",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
    "edition": "OBX-04",
    "reseau": "TikTok",
    "quand": "2026-11-10T20:05",
@@ -331,6 +187,15 @@
    "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
   },
   {
+   "edition": "OBX-PAYS-04",
+   "reseau": "YouTube",
+   "quand": "2026-11-11T12:35",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
    "edition": "OBX-04",
    "reseau": "Instagram",
    "quand": "2026-11-11T17:50",
@@ -338,6 +203,15 @@
    "support": "Reel / Short",
    "mode": "auto",
    "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "LinkedIn",
+   "quand": "2026-11-12T07:55",
+   "format": "La politique",
+   "support": "document PDF",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
   },
   {
    "edition": "OBX-04",
@@ -349,10 +223,136 @@
    "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
   },
   {
+   "edition": "OBX-PAYS-04",
+   "reseau": "X",
+   "quand": "2026-11-12T09:10",
+   "format": "La politique",
+   "support": "fil",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "Instagram",
+   "quand": "2026-11-12T12:45",
+   "format": "Le pays en bref",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
    "edition": "OBX-04",
    "reseau": "X",
    "quand": "2026-11-12T13:30",
    "format": "Reel · Le mécanisme (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "TikTok",
+   "quand": "2026-11-12T19:15",
+   "format": "Le pays en bref",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "X",
+   "quand": "2026-11-13T09:30",
+   "format": "Comparaison avant / maintenant (image unique)",
+   "support": "fil",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "Instagram",
+   "quand": "2026-11-13T11:45",
+   "format": "La politique",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "LinkedIn",
+   "quand": "2026-11-13T13:05",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "manuel : à publier par toi"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "Instagram",
+   "quand": "2026-11-13T18:35",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "Instagram",
+   "quand": "2026-11-14T11:15",
+   "format": "Trois idées reçues",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "TikTok",
+   "quand": "2026-11-14T18:50",
+   "format": "Reel · Le pays en une minute (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "Instagram",
+   "quand": "2026-11-15T10:40",
+   "format": "L'économie",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "TikTok",
+   "quand": "2026-11-15T18:10",
+   "format": "L'économie",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "Instagram",
+   "quand": "2026-11-16T08:20",
+   "format": "Les matières premières",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "Instagram",
+   "quand": "2026-11-17T12:40",
+   "format": "La géopolitique",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-PAYS-04",
+   "reseau": "X",
+   "quand": "2026-11-17T14:10",
+   "format": "Reel · Le pays en une minute (voix off)",
    "support": "Reel / Short",
    "mode": "manuel",
    "statut": "manuel : à publier par toi"
@@ -371,22 +371,22 @@
   "[OBX-04] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
   "[OBX-04] Contrôle de préparation : second compte Buffer : 2e compte Buffer en limite de débit jusqu'à 21/11 23:11 (Paris)",
   "[OBX-04] Contrôle de préparation : jeton « Clé API Buffer (obx-planification) » : 12 jours restants",
-  "[OBX-PAYS-03] YouTube 04/11 11:05 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] Instagram 05/11 12:40 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] TikTok 05/11 19:25 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] Instagram 06/11 11:35 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] Instagram 06/11 17:25 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] Instagram 07/11 11:15 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] TikTok 07/11 19:35 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] Instagram 08/11 11:35 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] TikTok 08/11 18:25 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] Instagram 09/11 08:55 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] Instagram 10/11 12:55 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-PAYS-03] Feu vert newsletter pas encore donné",
-  "[OBX-PAYS-03] Feu vert réseaux pas encore donné",
-  "[OBX-PAYS-03] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
-  "[OBX-PAYS-03] Contrôle de préparation : second compte Buffer : 2e compte Buffer en limite de débit jusqu'à 21/11 23:11 (Paris)",
-  "[OBX-PAYS-03] Contrôle de préparation : jeton « Clé API Buffer (obx-planification) » : 12 jours restants",
+  "[OBX-PAYS-04] YouTube 11/11 12:35 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] Instagram 12/11 12:45 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] TikTok 12/11 19:15 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] Instagram 13/11 11:45 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] Instagram 13/11 18:35 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] Instagram 14/11 11:15 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] TikTok 14/11 18:50 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] Instagram 15/11 10:40 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] TikTok 15/11 18:10 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] Instagram 16/11 08:20 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] Instagram 17/11 12:40 : non programmable : pas de légende prête (à écrire ou à produire)",
+  "[OBX-PAYS-04] Feu vert newsletter pas encore donné",
+  "[OBX-PAYS-04] Feu vert réseaux pas encore donné",
+  "[OBX-PAYS-04] Contrôle de préparation : audit de sécurité du 2026-10-22 : 2 point(s) ouvert(s) : dépendances .venv : 25 vulnérabilité(s) connue(s) dans certifi, pillow ; dépendances .venv_video : 24 vulnérabilité(s) connue(s) dans pillow : ",
+  "[OBX-PAYS-04] Contrôle de préparation : second compte Buffer : 2e compte Buffer en limite de débit jusqu'à 21/11 23:11 (Paris)",
+  "[OBX-PAYS-04] Contrôle de préparation : jeton « Clé API Buffer (obx-planification) » : 12 jours restants",
   "[OBX-2027-01] YouTube 30/10 18:15 : non programmable : pas de légende prête (à écrire ou à produire)",
   "[OBX-2027-01] TikTok 30/10 20:50 : non programmable : pas de légende prête (à écrire ou à produire)",
   "[OBX-2027-01] Instagram 31/10 18:35 : non programmable : pas de légende prête (à écrire ou à produire)",
@@ -398,12 +398,12 @@
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 9
+   "jours_restants": 8
   },
   {
    "nom": "Autorisation LinkedIn (profil)",
    "expire": "2026-12-21",
-   "jours_restants": 41
+   "jours_restants": 40
   }
  ],
  "editions": [
@@ -414,8 +414,8 @@
    "feu_vert_reseaux": false
   },
   {
-   "edition": "OBX-PAYS-03",
-   "j0": "2026-11-04",
+   "edition": "OBX-PAYS-04",
+   "j0": "2026-11-11",
    "feu_vert_newsletter": false,
    "feu_vert_reseaux": false
   },
