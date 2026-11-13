@@ -1,101 +1,11 @@
 {
- "genere": "2026-11-12T07:40",
+ "genere": "2026-11-13T07:40",
  "edition": "OBX-04",
  "numero": "04",
  "j0": "2026-11-09",
  "feu_vert_newsletter": false,
  "feu_vert_reseaux": false,
  "publications": [
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "LinkedIn",
-   "quand": "2026-10-30T08:55",
-   "format": "Le focus : une idée face à la théorie",
-   "support": "document PDF",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "YouTube",
-   "quand": "2026-10-30T18:15",
-   "format": "Reel · La question de la semaine (voix off)",
-   "support": "Reel / Short",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "TikTok",
-   "quand": "2026-10-30T20:50",
-   "format": "Reel · La question de la semaine (voix off)",
-   "support": "Reel / Short",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "Instagram",
-   "quand": "2026-10-31T12:55",
-   "format": "Le focus : une idée face à la théorie",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "programmé dans Buffer"
-  },
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "Instagram",
-   "quand": "2026-10-31T18:35",
-   "format": "Reel · La question de la semaine (voix off)",
-   "support": "Reel / Short",
-   "mode": "auto",
-   "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
-  },
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "Instagram",
-   "quand": "2026-11-01T14:55",
-   "format": "La semaine politique en chiffres",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "programmé dans Buffer"
-  },
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "X",
-   "quand": "2026-11-02T10:00",
-   "format": "Le focus : une idée face à la théorie",
-   "support": "fil",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "LinkedIn",
-   "quand": "2026-11-03T12:15",
-   "format": "Reel · La question de la semaine (voix off)",
-   "support": "Reel / Short",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "X",
-   "quand": "2026-11-04T15:55",
-   "format": "Reel · La question de la semaine (voix off)",
-   "support": "Reel / Short",
-   "mode": "manuel",
-   "statut": "manuel : à publier par toi"
-  },
-  {
-   "edition": "OBX-2027-01",
-   "reseau": "TikTok",
-   "quand": "2026-11-04T20:00",
-   "format": "Le focus : une idée face à la théorie",
-   "support": "carrousel",
-   "mode": "auto",
-   "statut": "programmé dans Buffer"
-  },
   {
    "edition": "OBX-04",
    "reseau": "LinkedIn",
@@ -259,6 +169,15 @@
    "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
   },
   {
+   "edition": "OBX-2027-02",
+   "reseau": "LinkedIn",
+   "quand": "2026-11-13T09:10",
+   "format": "Le focus : une idée face à la théorie",
+   "support": "document PDF",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
    "edition": "OBX-PAYS-04",
    "reseau": "X",
    "quand": "2026-11-13T09:30",
@@ -286,6 +205,15 @@
    "statut": "manuel : à publier par toi"
   },
   {
+   "edition": "OBX-2027-02",
+   "reseau": "YouTube",
+   "quand": "2026-11-13T16:30",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
    "edition": "OBX-PAYS-04",
    "reseau": "Instagram",
    "quand": "2026-11-13T18:35",
@@ -295,6 +223,15 @@
    "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
   },
   {
+   "edition": "OBX-2027-02",
+   "reseau": "TikTok",
+   "quand": "2026-11-13T19:15",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
    "edition": "OBX-PAYS-04",
    "reseau": "Instagram",
    "quand": "2026-11-14T11:15",
@@ -302,6 +239,24 @@
    "support": "carrousel",
    "mode": "auto",
    "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
+  },
+  {
+   "edition": "OBX-2027-02",
+   "reseau": "Instagram",
+   "quand": "2026-11-14T13:15",
+   "format": "Le focus : une idée face à la théorie",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
+   "edition": "OBX-2027-02",
+   "reseau": "Instagram",
+   "quand": "2026-11-14T17:55",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "auto",
+   "statut": "dossier absent"
   },
   {
    "edition": "OBX-PAYS-04",
@@ -322,6 +277,15 @@
    "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
   },
   {
+   "edition": "OBX-2027-02",
+   "reseau": "Instagram",
+   "quand": "2026-11-15T15:30",
+   "format": "La semaine politique en chiffres",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
+  },
+  {
    "edition": "OBX-PAYS-04",
    "reseau": "TikTok",
    "quand": "2026-11-15T18:10",
@@ -340,6 +304,15 @@
    "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
   },
   {
+   "edition": "OBX-2027-02",
+   "reseau": "X",
+   "quand": "2026-11-16T10:55",
+   "format": "Le focus : une idée face à la théorie",
+   "support": "fil",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
    "edition": "OBX-PAYS-04",
    "reseau": "Instagram",
    "quand": "2026-11-17T12:40",
@@ -349,6 +322,15 @@
    "statut": "non programmable : pas de légende prête (à écrire ou à produire)"
   },
   {
+   "edition": "OBX-2027-02",
+   "reseau": "LinkedIn",
+   "quand": "2026-11-17T13:05",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
    "edition": "OBX-PAYS-04",
    "reseau": "X",
    "quand": "2026-11-17T14:10",
@@ -356,6 +338,24 @@
    "support": "Reel / Short",
    "mode": "manuel",
    "statut": "manuel : à publier par toi"
+  },
+  {
+   "edition": "OBX-2027-02",
+   "reseau": "X",
+   "quand": "2026-11-18T15:10",
+   "format": "Reel · La question de la semaine (voix off)",
+   "support": "Reel / Short",
+   "mode": "manuel",
+   "statut": "à produire"
+  },
+  {
+   "edition": "OBX-2027-02",
+   "reseau": "TikTok",
+   "quand": "2026-11-18T18:35",
+   "format": "Le focus : une idée face à la théorie",
+   "support": "carrousel",
+   "mode": "auto",
+   "statut": "dossier absent"
   }
  ],
  "problemes": [
@@ -381,20 +381,29 @@
   "[OBX-PAYS-04] Instagram 17/11 12:40 : non programmable : pas de légende prête (à écrire ou à produire)",
   "[OBX-PAYS-04] Feu vert newsletter pas encore donné",
   "[OBX-PAYS-04] Feu vert réseaux pas encore donné",
-  "[OBX-2027-01] YouTube 30/10 18:15 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-2027-01] TikTok 30/10 20:50 : non programmable : pas de légende prête (à écrire ou à produire)",
-  "[OBX-2027-01] Instagram 31/10 18:35 : non programmable : pas de légende prête (à écrire ou à produire)"
+  "[OBX-2027-02] LinkedIn 13/11 09:10 : à produire",
+  "[OBX-2027-02] Instagram 14/11 13:15 : dossier absent",
+  "[OBX-2027-02] Instagram 15/11 15:30 : dossier absent",
+  "[OBX-2027-02] TikTok 18/11 18:35 : dossier absent",
+  "[OBX-2027-02] X 16/11 10:55 : à produire",
+  "[OBX-2027-02] YouTube 13/11 16:30 : dossier absent",
+  "[OBX-2027-02] TikTok 13/11 19:15 : dossier absent",
+  "[OBX-2027-02] Instagram 14/11 17:55 : dossier absent",
+  "[OBX-2027-02] LinkedIn 17/11 13:05 : à produire",
+  "[OBX-2027-02] X 18/11 15:10 : à produire",
+  "[OBX-2027-02] Feu vert newsletter pas encore donné",
+  "[OBX-2027-02] Feu vert réseaux pas encore donné"
  ],
  "jetons_a_renouveler": [
   {
    "nom": "Clé API Buffer (obx-planification)",
    "expire": "2026-11-19",
-   "jours_restants": 7
+   "jours_restants": 6
   },
   {
    "nom": "Autorisation LinkedIn (profil)",
    "expire": "2026-12-21",
-   "jours_restants": 39
+   "jours_restants": 38
   }
  ],
  "editions": [
@@ -411,10 +420,10 @@
    "feu_vert_reseaux": false
   },
   {
-   "edition": "OBX-2027-01",
-   "j0": "2026-10-30",
-   "feu_vert_newsletter": true,
-   "feu_vert_reseaux": true
+   "edition": "OBX-2027-02",
+   "j0": "2026-11-13",
+   "feu_vert_newsletter": false,
+   "feu_vert_reseaux": false
   }
  ]
 }
